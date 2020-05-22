@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(25, 30, 46, 0.993);
+    font-family: sans-serif;
+    
+}
+.mainTab {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 125px !important;
+    border: none;
+}
+.mainTab td {
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid #fff;
+    height: 205px;
+    width: 80px;
+    position: relative;
+}
+.mainTab td:nth-child(3) {
+    border-right: none !important;
+}
+.row1col1, .row1col2 ,.row1col3 , .row2col1, .row2col2 ,.row2col3, .row3col1, .row3col2 ,.row3col3 {
+    width: 100%;
+    height: 100%;
+}
+.mainTab td span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background: #0000007a; */
+    top: 0px;
+}
+
+.asset {
+    height: 50%;
+    position: absolute;
+    /* transform: translate(50%, 50%); */
+    top: 25%;
+    right: 25%;
+}
+
+.winningMsg {
+    width: 30%;
+    text-align: center;
+    height: 500px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    margin-top: 350px;
+    display: none;
+    
+}
+
+button#play {
+    padding: 10px 25px;
+    background: #afc2ff;
+    border: 1px dotted black;
+    font-weight: bold;
+}
+.losingMsg {
+    width: 30%;
+    text-align: center;
+    height: 500px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    margin-top: 350px;
+    display: none;
+}
+.drawMsg {
+    width: 30%;
+    text-align: center;
+    height: 500px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    margin-top: 350px;
+    display: none;
+}

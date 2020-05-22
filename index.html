@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h4 style="margin-top: 35px; color: #cccc; text-align: center;">Tic Tac Toe Game Programmed by Sh@zin</h4>
+    <table class="mainTab">
+        <tr>
+            <td><span id="row1col1"></td>
+            <td><span id="row1col2"></span></td>
+            <td><span id="row1col3"></span></td>
+        </tr>
+
+        <tr>
+            <td><span id="row2col1"></span></td>
+            <td><span id="row2col2"></span></td>
+            <td><span id="row2col3"></span></td>
+        </tr>
+
+        <tr>
+            <td style="border-bottom: none;"><span id="row3col1"></span></td>
+            <td style="border-bottom: none;"><span id="row3col2"></span></td>
+            <td style="border-bottom: none;"><span id="row3col3"></span></td>
+        </tr>
+    </table>
+    <div class="winningMsg">
+        <div>
+        <h1>Congrats! You Won! 😎</h1>
+        <button id="play">Play Again</button>
+        </div>
+    </div>
+    <div class="losingMsg">
+        <div>
+        <h1>Umm, You Lose 😭 AI Won The Match</h1>
+        <button id="play">Play Again</button>
+        </div>
+    </div>
+    <div class="drawMsg">
+        <div>
+        <h1>Match Draw 😯</h1>
+        <button id="play">Play Again</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
