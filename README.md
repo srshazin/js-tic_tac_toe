@@ -8,4 +8,4 @@
   
   it's interface is like below
   
-  <img src="https://github.com/srshazin/js-tic_tac_toe/blob/master/Screenshot%20from%202020-04-03%2020-39-06.png?raw=true" width="50%">
+  <img src="https://github.com/srshazin/js-tic_tac_toe/blob/master/Screenshot%20from%202020-04-03%2020-39-06.png?raw=true" width="70%">
