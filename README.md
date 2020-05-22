@@ -5,3 +5,7 @@
   But I loved to program.
   I developed it in such a way so that a Computer Bot Can Play With You !!!
   </p>
+  
+  it's interface is like below
+  
+  <img src="https://github.com/srshazin/js-tic_tac_toe/blob/master/Screenshot%20from%202020-04-03%2020-39-06.png?raw=true" width="50%">
